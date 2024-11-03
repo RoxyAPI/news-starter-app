@@ -2,6 +2,8 @@
 
 The **News Starter App** is an open-source react native application built with Expo, designed as a quick-start solution for creating a modern News App in React Native. It includes pre-built, swipeable, and grid-based news layouts, providing a seamless foundation for integrating news content.
 
+![App Demo](assets/demo.gif)
+
 ### Key Features
 
 - **Infinite Scrolling**: Fetches additional pages of news data as the user scrolls.
