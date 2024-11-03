@@ -23,10 +23,6 @@ To set up and run the News Starter App locally, follow these steps.
 ### Prerequisites
 
 - **Node.js** and **npm**: Ensure you have the latest versions installed. [Install Node.js](https://nodejs.org/).
-- **Expo CLI**: Install globally if you haven’t already:
-  ```bash
-  npm install -g expo-cli
-  ```
 
 ### Installation
 
@@ -53,7 +49,7 @@ To set up and run the News Starter App locally, follow these steps.
      EXPO_PUBLIC_API_TOKEN=your_api_token_here
      ```
 
-   > **Note**: For enhanced security, it is recommended to handle API requests server-side. Instead of exposing your API token directly within the app, set up a secure API proxy on your server. Your app would then make requests to this proxy, which forwards them to the RoxyAPI. This approach helps protect your API token from unauthorized access.
+   > **Note**: For enhanced security, it is recommended to handle API requests server-side. Instead of exposing your API token directly within the app, set up a secure API proxy on your server. Your app would then make requests to this proxy, which forwards them to RoxyAPI. This approach helps protect your API token from unauthorized access.
 
 ---
 
@@ -93,8 +89,3 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 For any issues, please refer to the [RoxyAPI Documentation](https://roxyapi.com/docs) or contact our support team.
 
 Happy coding!
-
-```
-
-This README provides a detailed, step-by-step guide, emphasizing setup and core app functionalities, catering to a developer's needs while ensuring an easy start with your API. Let me know if you’d like to add or tweak any sections!
-```
