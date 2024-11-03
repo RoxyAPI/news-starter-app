@@ -1,0 +1,2 @@
+export const BOTTOM_TAB_NAVIGATION_HEIGHT = 80;
+
