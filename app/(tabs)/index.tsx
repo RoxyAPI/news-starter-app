@@ -93,7 +93,7 @@ export default function Home() {
           snapToInterval={height}
           decelerationRate="fast"
           showsVerticalScrollIndicator={false}
-          snapToOffsets={data.map((_, index) => index * height)}
+          snapToOffsets={data && data.length>0 ? data.map((_, index) => index * height) : []}
           initialNumToRender={5}
           onEndReached={loadMoreData}
           onEndReachedThreshold={0.5}
